@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+             margin:0 auto;
+        }
+        .box h3{
+            text-align: center;
+            color:pink;
+        }
+        .wrap{
+            width:500px;
+            height:370px;
+            border:1px solid pink;
+            border-radius:10px;
+            overflow: hidden;
+            margin:0 auto;
+        }
+        
+        .wrap img{
+            animation: show 1s steps(8) infinite ;
+        }
+        @keyframes show{
+            form{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h3>我愿做你的 皮卡皮卡皮卡丘</h3>
+   <div class="wrap">
+       
+       <img src="皮卡丘.jpg">
+    </div> 
+</div>
+    <audio autoplay="enen" src="黄浩然 - 皮卡丘.mp3"></audio>
+</body>
+</html>
